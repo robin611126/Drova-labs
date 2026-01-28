@@ -36,10 +36,9 @@ const Navbar = () => {
       }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex-shrink-0 flex items-center gap-2">
-            <Sparkles className="text-brand-purple" size={24} />
-            <Link to="/" className="text-2xl font-bold font-display tracking-tighter text-white">
-              Drova<span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-purple to-brand-accent">Labs</span>
+          <div className="flex-shrink-0 flex items-center">
+            <Link to="/">
+              <img src="/logo.png" alt="Drova Labs" className="h-12 w-auto object-contain" />
             </Link>
           </div>
 
@@ -115,9 +114,10 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <div className="space-y-6">
-          <div className="flex items-center gap-2">
-            <Sparkles className="text-brand-purple" size={20} />
-            <span className="text-2xl font-bold font-display">DrovaLabs</span>
+          <div className="mb-6">
+            <Link to="/">
+              <img src="/logo.png" alt="Drova Labs" className="h-10 w-auto object-contain" />
+            </Link>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
             AI-Powered Advertising Excellence. We help businesses scale 10x with next-generation content creation.
