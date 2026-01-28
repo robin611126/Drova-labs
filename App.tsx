@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
-              <img src="/logo.png" alt="Drova Labs" className="h-12 w-auto object-contain" />
+              <img src="/logo.png" alt="Drova Labs" className="h-[75px] w-auto object-contain" />
             </Link>
           </div>
 
@@ -116,7 +116,7 @@ const Footer = () => (
         <div className="space-y-6">
           <div className="mb-6">
             <Link to="/">
-              <img src="/logo.png" alt="Drova Labs" className="h-10 w-auto object-contain" />
+              <img src="/logo.png" alt="Drova Labs" className="h-24 w-auto object-contain" />
             </Link>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
